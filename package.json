@@ -1,0 +1,9 @@
+{
+  "name": "chivsec",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test src/chivsec/pipeline.test.ts",
+    "audit": "node --experimental-strip-types src/chivsec/cli.ts"
+  }
+}
